@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Liquid ripple animation */
+.liquid-effect {
+  animation: liquidRipple 1.5s ease-out infinite;
+}
+
+@keyframes liquidRipple {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+body {
+  background-color: rebeccapurple;
+}
