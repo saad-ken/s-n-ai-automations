@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     createChat({
       webhookUrl:
-        "https://n8n-zkgp.onrender.com/webhook/c8793107-553c-4abc-9c4f-855eeade06d6/chat",
+        "https://n8n-zkgp.onrender.com/webhook/2a702c68-e606-4b99-82bc-83cffe903cf4/chat",
       initialMessages: [
         "Hello there! 👋",
         "My name is alo obiwan. How can I assist you today?",
